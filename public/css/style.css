@@ -17,7 +17,7 @@ I am using multiple containers*/
 .side-bar {
   margin-top: 1%;
   border: solid black 3px;
-  height: 60%;
+  height: 500px;
   padding: 0;
   position: relative;
 }
@@ -26,19 +26,10 @@ I am using multiple containers*/
 .my-face {
   border: solid yellow 3px;
   position: relative;
-  width: 80%;
+  width: 190px;
   height: 50%;
-  margin-left: 20%;
-}
-
-/*the links inside the navigation side bar*/
-.links {
-  position: relative;
-  border: solid purple 3px;
-  padding: 0;
-  margin-top: 5%;
-  margin-left: 20%;
-  bottom: 10%;
+  margin: 0 auto;
+  display: block;
 }
 
 /*the content of the page*/
