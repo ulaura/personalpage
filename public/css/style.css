@@ -5,6 +5,7 @@ body {
 /* The display at the top. Houses my-name */
 .jumbotron {
   background: #ededf3;
+  margin-top: 50px;
   padding: 20px;
 }
 
@@ -29,47 +30,32 @@ body {
   margin-top: 3%;
 }
 
-/* the div container acting as a navigation bar */
-.side-bar {
-  margin-top: 1%;
-  border: solid black 3px;
-  height: 500px;
-  padding: 0;
-  position: relative;
-}
-
-.card-body {
-  padding-top: 10px;
-  padding-bottom: 10px; 
-}
-
-.card-body h4 {
-  letter-spacing: 5px;
-}
 
 /* the links in the nav bar */
 .nav-item {
-  letter-spacing: 5px;
+  letter-spacing: 6px;
 }
 
-/* div container holding my picture */
-.picture  {
-  padding-top: 15px;
-  margin: 0 auto;
+.picture {
+  border: solid red 3px;
 }
-
-/* my picture in the navigation side bar */
+/* my picture in the content section */
 .my-face {
   border: solid yellow 3px;
-  display: block;
-  height: 45%;
+  max-width: 100%;
+  max-height: 100%;
 }
+
 
 /* the content of the page */
 .content {
-  margin-top: 0 auto;
+  margin-top: 0;
   border: solid green 3px;
   padding: 15px;
+}
+
+.words {
+  display: inline;
 }
 
 /* Media queries to help with jumbotron */
