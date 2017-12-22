@@ -2,9 +2,25 @@ body {
   background: #ededf3;
 }
 
-/* the display at the top */
+/* The display at the top. Houses my-name */
+.jumbotron {
+  background: #ededf3;
+  padding: 20px;
+}
+
+/* my name in the display */
 .my-name {
   margin-top: 1%;
+}
+
+/* span for first name */
+#first-name {
+  letter-spacing: 20px;
+}
+
+/* span for last name */ 
+#last-name {
+  letter-spacing: 20px;
 }
 
 /* the class I gave the main container since 
@@ -22,29 +38,60 @@ body {
   position: relative;
 }
 
-/* the links in the side nav bar */
-.list-group-item {
-  text-align: center;
+.card-body {
+  padding-top: 10px;
+  padding-bottom: 10px; 
+}
+
+.card-body h4 {
+  letter-spacing: 5px;
+}
+
+/* the links in the nav bar */
+.nav-item {
+  letter-spacing: 5px;
 }
 
 /* div container holding my picture */
 .picture  {
   padding-top: 15px;
+  margin: 0 auto;
 }
 
 /* my picture in the navigation side bar */
 .my-face {
   border: solid yellow 3px;
-  position: relative;
-  width: 190px;
-  height: 50%;
-  margin: 0 auto;
   display: block;
+  height: 45%;
 }
 
 /* the content of the page */
 .content {
-  margin-top: 1%;
+  margin-top: 0 auto;
   border: solid green 3px;
   padding: 15px;
+}
+
+/* Media queries to help with jumbotron */
+@media screen and (max-width: 992px) {
+  #dot {
+    display: none;
+  }
+
+  .display-1 {
+    font-size: 70px
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .display-1 {
+    font-size: 65px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .display-1 {
+    font-size: 65px;
+  }
 }
