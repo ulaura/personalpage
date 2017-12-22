@@ -2,10 +2,18 @@ body {
   background: #ededf3;
 }
 
-.main-container {
-  margin-top: 10%;
+/*the display at the top*/
+.my-name {
+  margin-top: 1%;
 }
 
+/*the class I gave the main container since 
+I am using multiple containers*/
+.main-container {
+  margin-top: 3%;
+}
+
+/*the div container acting as a navigation bar*/
 .side-bar {
   margin-top: 1%;
   border: solid black 3px;
@@ -14,6 +22,7 @@ body {
   position: relative;
 }
 
+/*my picture in the navigation side bar*/
 .my-face {
   border: solid yellow 3px;
   position: relative;
@@ -22,7 +31,7 @@ body {
   margin-left: 20%;
 }
 
-
+/*the links inside the navigation side bar*/
 .links {
   position: relative;
   border: solid purple 3px;
@@ -32,6 +41,7 @@ body {
   bottom: 10%;
 }
 
+/*the content of the page*/
 .content {
   margin-top: 1%;
   border: solid green 3px;
