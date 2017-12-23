@@ -64,6 +64,10 @@ body {
   
 }
 
+/* the header of each section on a page */
+.section-header {
+  letter-spacing: 6px;
+}
 
 
 /* Media queries to help with jumbotron and some text positioning*/
