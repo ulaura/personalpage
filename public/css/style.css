@@ -1,12 +1,16 @@
 body {
-  background: #ededf3;
+  background: #d1c5d8;
 }
 
 /* The display at the top. Houses my-name */
 .jumbotron {
-  background: #ededf3;
+  background: #d1c5d8;
   margin-top: 50px;
   padding: 20px;
+}
+
+.display-1 {
+  font-weight: 800px;
 }
 
 /* my name in the display */
@@ -36,29 +40,33 @@ body {
   letter-spacing: 6px;
 }
 
-.picture {
-  border: solid red 3px;
-}
 /* my picture in the content section */
 .my-face {
   border: solid yellow 3px;
   max-width: 100%;
-  max-height: 100%;
+  height: 300px;
+  float: left;
+  margin-right: 5%;
+  
 }
-
 
 /* the content of the page */
 .content {
+  background:#F8F9FA;
   margin-top: 0;
   border: solid green 3px;
   padding: 15px;
 }
 
-.words {
+.text {
   display: inline;
+  position: relative;
+  
 }
 
-/* Media queries to help with jumbotron */
+
+
+/* Media queries to help with jumbotron and some text positioning*/
 @media screen and (max-width: 992px) {
   #dot {
     display: none;
@@ -69,7 +77,6 @@ body {
   }
 }
 
-
 @media screen and (max-width: 768px) {
   .display-1 {
     font-size: 65px;
@@ -79,5 +86,21 @@ body {
 @media screen and (max-width: 576px) {
   .display-1 {
     font-size: 65px;
+  }
+
+  .my-face {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    
+  }
+
+  .section-header {
+    text-align: center;
+    margin-top: 2%;
+  }
+
+  .content p {
+    text-align: center;
   }
 }
