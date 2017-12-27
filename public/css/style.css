@@ -58,10 +58,8 @@ body {
   padding: 15px;
 }
 
-.text {
-  display: inline;
-  position: relative;
-  
+p {
+  margin-bottom: 12px;
 }
 
 /* the header of each section on a page */
