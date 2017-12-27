@@ -67,6 +67,11 @@ body {
   letter-spacing: 6px;
 }
 
+/* Devicon Icons in the "MY Skills" section on the homepage*/
+i {
+  font-size: 100px;
+}
+
 
 /* Media queries to help with jumbotron and some text positioning*/
 @media screen and (max-width: 992px) {
