@@ -6,9 +6,11 @@ body {
 .jumbotron {
   background: #d1c5d8;
   margin-top: 50px;
+  margin-bottom: 0;
   padding: 20px;
 }
 
+/* The class used for the h1 tag with my name at the top of the page */
 .display-1 {
   font-weight: 400;
 }
@@ -28,10 +30,8 @@ body {
   letter-spacing: 20px;
 }
 
-/* the class I gave the main container since 
-    I am using multiple containers */
-.main-container {
-  margin-top: 3%;
+.container {
+  margin-top: 1%;
 }
 
 
@@ -58,7 +58,7 @@ body {
   padding: 15px;
 }
 
-p {
+.content p {
   margin-bottom: 12px;
 }
 
@@ -70,6 +70,7 @@ p {
 
 /* Media queries to help with jumbotron and some text positioning*/
 @media screen and (max-width: 992px) {
+  /* That dot that appears between my first and last name at the top of the page */
   #dot {
     display: none;
   }
@@ -78,6 +79,7 @@ p {
     font-size: 70px;
   }
 
+  /* The tagline for my page. Shows up in the jumbotron */
   .display-4 {
     font-size: 55px;
   }
