@@ -72,6 +72,10 @@ i {
   font-size: 100px;
 }
 
+/* Making the icons in each list center */
+.list-group {
+  text-align: center;
+}
 
 /* Media queries to help with jumbotron and some text positioning*/
 @media screen and (max-width: 992px) {
