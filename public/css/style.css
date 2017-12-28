@@ -69,12 +69,21 @@ body {
 
 /* Devicon Icons in the "MY Skills" section on the homepage*/
 i {
-  font-size: 100px;
+  font-size: 130px;
 }
 
 /* Making the icons in each list center */
 .list-group {
   text-align: center;
+}
+
+#mongoose {
+  width: 90%;
+}
+
+#materialize {
+  width: 90%;
+  height: 30%;
 }
 
 /* Media queries to help with jumbotron and some text positioning*/
