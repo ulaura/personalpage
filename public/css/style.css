@@ -78,11 +78,13 @@ i {
 }
 
 #mongoose {
-  width: 90%;
+  display: relative;
+  max-width: 100%;
 }
 
 #materialize {
-  width: 90%;
+  display: relative;
+  max-width: 100%;
 }
 
 /* Media queries to help with jumbotron and some text positioning*/
