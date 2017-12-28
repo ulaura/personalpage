@@ -62,6 +62,10 @@ body {
   margin-bottom: 12px;
 }
 
+p {
+  font-size: 20px;
+}
+
 /* the header of each section on a page */
 .section-header {
   letter-spacing: 6px;
@@ -69,7 +73,7 @@ body {
 
 /* Devicon Icons in the "MY Skills" section on the homepage*/
 i {
-  font-size: 130px;
+  font-size: 100px;
 }
 
 /* Making the icons in each list center */
@@ -77,14 +81,23 @@ i {
   text-align: center;
 }
 
+.table td {
+  padding: 8px;
+  text-align: center;
+}
+
 #mongoose {
-  display: relative;
-  max-width: 100%;
+  width: 90px;
+  height: 90px;
 }
 
 #materialize {
-  display: relative;
-  max-width: 100%;
+  width: 90px;
+  height: 90px;
+}
+
+#handlebars {
+  width: 110px;
 }
 
 /* Media queries to help with jumbotron and some text positioning*/
