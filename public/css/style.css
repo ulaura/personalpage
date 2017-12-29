@@ -76,14 +76,35 @@ i {
   font-size: 90px;
 }
 
-/* Making the icons in each list center */
-.list-group {
-  text-align: center;
-}
 
 .table td {
   padding: 8px;
   text-align: center;
+  border-top: none;
+  border-bottom: 1px solid #e9ecef;
+}
+
+/* The bottom row of the table in My Skills section and in Contact section */
+#bottom-row, #bottom-row2, #bottom-row3 {
+  border-bottom: none;
+}
+
+/* Affects the table on Contact page */
+.contact-info td {
+  text-align: left;
+  border-top: none;
+  border-bottom: 1px solid #e9ecef;
+}
+
+
+/* Affects the table on Contact page */
+.contact-info th {
+  border-top: none;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.contact-info td, th {
+  font-size: 20px;
 }
 
 #mongoose {
@@ -160,8 +181,13 @@ i {
     text-align: center;
   }
 
+  /* Affects the p on Portfolio page */
   .portfolio p {
     text-align: left;
     font-size: 14px;
+  }
+
+  .table td, th {
+    font-size: 15px;
   }
 }
