@@ -108,6 +108,11 @@ i {
   font-size: 20px;
 }
 
+.resume-button {
+  position: relative;
+  margin: auto;
+}
+
 #mongoose {
   width: 90px;
   height: 90px;

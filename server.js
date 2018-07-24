@@ -1,13 +1,13 @@
 // Dependencies
-var express = require("express");
-var bodyParser = require("body-parser");
+const express = require("express");
+const bodyParser = require("body-parser");
 
 // Express Configuration
-var app = express();
+const app = express();
 
 // Setting the port. Will either take in what port its provided when it's deployed,
 // or it will default to localhost:3000
-var PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000;
 
 // Sets up the Express app to handle data parsing
 app.use(bodyParser.urlencoded({ extended: false }));

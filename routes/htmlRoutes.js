@@ -1,6 +1,6 @@
 // Dependencies
 // path allows the server to grab the correct file path for the url
-var path = require("path");
+const path = require("path");
 
 
 // Routing
