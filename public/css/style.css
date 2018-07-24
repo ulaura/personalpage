@@ -1,10 +1,10 @@
 body {
-  background: #d1c5d8;
+  background: #9cd187;
 }
 
 /* The display at the top. Houses my-name */
 .jumbotron {
-  background: #d1c5d8;
+  background: #9cd187;
   margin-top: 50px;
   margin-bottom: 0;
   padding: 20px;
@@ -52,7 +52,7 @@ body {
 
 /* the content of the page */
 .content {
-  background:#F8F9FA;
+  background:#f8faf8;
   margin-top: 0;
   /* border: solid 3px green; */
   padding: 15px;
@@ -106,11 +106,6 @@ i {
 
 .contact-info td, th {
   font-size: 20px;
-}
-
-.resume-button {
-  position: relative;
-  margin: auto;
 }
 
 #mongoose {
